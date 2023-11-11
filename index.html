@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="parent-container">
+            <div class="container">
+                <div class="display grid-item"></div>
+                <div class="grid-item number">1</div>
+                <div class="grid-item number">2</div>
+                <div class="grid-item number">3</div>
+                <div class="plus grid-item operator" data-sign="plus"><ion-icon name="add-outline"></ion-icon></div>
+                <div class="grid-item number">4</div>
+                <div class="grid-item number">5</div>
+                <div class="grid-item number">6</div>
+                <div class="minus grid-item operator" data-sign="minus"><ion-icon name="remove-outline"></ion-icon></div>
+                <div class="grid-item number">7</div>
+                <div class="grid-item number">8</div>
+                <div class="grid-item number">9</div>
+                <div class="divide grid-item operator" data-sign="divide">/</div>
+                <div class="clr grid-item">del</div>
+                <div class="grid-item number">0</div>
+                <div class="equal-sign grid-item">=</div>
+                <div class="multiply grid-item operator" data-sign="multiply"><ion-icon name="close-outline"></ion-icon></div>
+            </div>
+            <span class="moving-border"></span>
+        </div>
+
+        <div class="theme-btn"><ion-icon name="settings-outline"></ion-icon></div>
+        
+        <ul class="theme-options">
+            <li class="theme" data-theme="aqua"></li>
+            <li class="theme" data-theme="ozee"></li>
+            <li class="theme" data-theme="dark-cyan"></li>
+            <li class="theme" data-theme="math"></li>
+            <li class="theme" data-theme="desert"></li>
+            <li class="theme" data-theme="neon"></li> 
+            <li class="theme" data-theme="default"></li>
+        </ul>
+    
+        <span class="attribution">Coded by Johnny</span>
+    </div>
+
+    
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
