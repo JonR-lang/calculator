@@ -15,6 +15,7 @@
 
 :root:has(.ozee, .math, .desert, .neon) .container {
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.4);
 }
 
